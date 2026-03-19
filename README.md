@@ -1,23 +1,16 @@
 
 # AI-Powered Database Query Optimization & Index Recommendation System
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-red?logo=streamlit)](https://ai-powered-sql-query-optimizer.streamlit.app/)
+
 ![Python](https://img.shields.io/badge/Python-3.11+-blue?logo=python)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.32+-red?logo=streamlit)
 ![Plotly](https://img.shields.io/badge/Plotly-5.18+-purple?logo=plotly)
 ![sqlparse](https://img.shields.io/badge/sqlparse-0.4.4-green)
-![Features](https://img.shields.io/badge/Features-18-brightgreen)
 
 This project is a Streamlit-based SQL analysis tool that detects query anti-patterns and recommends optimizations. It combines pattern detection, scoring, index recommendations, rewrite suggestions, and interactive visualization in one dashboard.
 
 `db_connection.py` is included for optional MySQL integration. The core analysis, scoring, planning, and simulation workflows work without a live database.
-
----
-
-## Live Demo
-
-Add your deployed Streamlit URL here:
-
-[Open Live Demo](https://your-streamlit-app-url.streamlit.app)
 
 ---
 
@@ -130,7 +123,6 @@ SQL Query Input
       -> Dashboard Visuals + Export
 ```
 
----
 
 ## Setup and Installation
 
@@ -143,11 +135,9 @@ SQL Query Input
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/AI-Powered-SQL-Query-Optimization-Index-Recommendation-Engine.git
-cd AI-Powered-SQL-Query-Optimization-Index-Recommendation-Engine
+git clone https://github.com/Chokkarapuwar-Sujal/AI-Powered-SQL-Query-Optimizer.git
+cd AI-Powered-SQL-Query-Optimizer
 ```
-
-Replace `your-username` with your GitHub username.
 
 ### 2. Create and Activate a Virtual Environment
 
